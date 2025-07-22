@@ -1,0 +1,64 @@
+body {
+    background-color: pink; /* Fondo rosado */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: blue; /* Letras azules */
+}
+
+h1 {
+    color: blue; /* Las letras del título también serán azules */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: blue; /* Letras azules para las etiquetas */
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no aumente el ancho total */
+}
+
+button {
+    background-color: #007bff; /* Un botón de un color distinto para que resalte */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.responsive-img {
+    max-width: 100%; /* La imagen se ajustará al ancho de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px;
+    border-radius: 8px; /* Bordes ligeramente redondeados para la imagen */
+}
