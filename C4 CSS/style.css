@@ -17,6 +17,10 @@ body {
     color: blue; /* Letras azules */
 }
 
+.container:hover {
+    background-color: lightblue; /* El color que quieras que tome al pasar el mouse */
+}
+
 h1 {
     color: blue; /* Las letras del título también serán azules */
     margin-bottom: 20px;
